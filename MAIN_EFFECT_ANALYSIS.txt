@@ -1,0 +1,247 @@
+╔══════════════════════════════════════════════════════════════════════╗
+║           📊 MAIN EFFECT ANALYSIS - KEY VARIABLES SUMMARY            ║
+║                   Packed (%) vs Operational Variables                ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+📈 OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+This analysis examines how 7 key operational variables affect 
+packing efficiency (Packed %). All charts are in professional 
+Minitab line plot style.
+
+Overall Mean Packed (%): 0.86%
+Dataset: 1,968 production samples
+
+
+🎯 VARIABLES ANALYZED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. 📅 DMY (Date) - Temporal patterns by month
+2. 🌦️ Season - Seasonal effects (Rainy season only in this data)
+3. 🌓 Shift - Day vs Night shift performance
+4. 🌡️ Temperature - Thailand Ayutthaya temperature impact
+5. 🏭 Plant - Plant location effects (SGA-3 vs SGA-2)
+6. 📍 Line - Production line variations (8 lines)
+7. 📦 Product - Product type differences (7 products)
+
+
+📊 KEY FINDINGS BY VARIABLE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. 📅 DMY (DATE/MONTH PATTERN)
+─────────────────────────────────────────────────────────────────────
+• July & August: High performance (~0.90%)
+• September: Drop to 0.79% ⚠️
+• October: Recovery to 0.88%
+• Pattern: V-shaped dip in September
+
+🔍 INSIGHT: September shows significant decline - investigate:
+   - Machine maintenance schedules
+   - Staff changes or training gaps
+   - Raw material quality variations
+
+
+2. 🌦️ SEASON
+─────────────────────────────────────────────────────────────────────
+• Rainy Season Only: 0.86%
+• Note: Data contains only rainy season samples
+• Cannot compare across seasons with current data
+
+
+3. 🌓 SHIFT (DAY vs NIGHT)
+─────────────────────────────────────────────────────────────────────
+Performance Comparison:
+┌──────────┬──────────┬────────────┐
+│  Shift   │ Packed % │ Difference │
+├──────────┼──────────┼────────────┤
+│ Night ⭐ │  0.87%   │   +0.01%   │
+│ Day      │  0.86%   │  Baseline  │
+└──────────┴──────────┴────────────┘
+
+🔍 INSIGHT: Night shift slightly outperforms day shift
+   Possible reasons:
+   - Less supervision pressure → more focus
+   - Fewer interruptions
+   - Cooler temperature
+   - More experienced staff on night shift
+
+
+4. 🌡️ TEMPERATURE (Thailand Ayutthaya)
+─────────────────────────────────────────────────────────────────────
+Temperature Range: 28°C - 31°C
+Pattern: Non-linear relationship
+
+Temperature Zones:
+• 28°C: 0.86% (baseline)
+• 29°C: Peak at 0.90% ⭐
+• 30°C: 0.89%
+• 31°C: Drop to 0.83% ⚠️
+
+🔍 INSIGHT: Optimal temperature is 29°C
+   - Too cold (28°C): Below average
+   - Sweet spot (29-30°C): Peak performance
+   - Too hot (31°C): Significant decline
+   
+   RECOMMENDATION: Install climate control to maintain 29-30°C
+
+
+5. 🏭 PLANT LOCATION
+─────────────────────────────────────────────────────────────────────
+Plant Performance:
+┌──────────┬──────────┬────────────┐
+│  Plant   │ Packed % │ Difference │
+├──────────┼──────────┼────────────┤
+│ SGA-3 ⭐ │  0.87%   │   +0.04%   │
+│ SGA-2    │  0.83%   │   -0.03%   │
+└──────────┴──────────┴────────────┘
+
+🔍 INSIGHT: SGA-3 significantly outperforms SGA-2 (4% difference)
+   Investigate SGA-3 best practices:
+   - Equipment condition
+   - Staff training methods
+   - Process optimization
+   - Quality control procedures
+
+
+6. 📍 PRODUCTION LINE
+─────────────────────────────────────────────────────────────────────
+Line Performance Ranking:
+┌──────────┬──────────┬────────────┐
+│   Line   │ Packed % │   Status   │
+├──────────┼──────────┼────────────┤
+│ Line 2.1 │  0.88%   │ ⭐ Best    │
+│ Line 3.1 │  0.88%   │ ⭐ Best    │
+│ Line 3.4 │  0.87%   │ ✅ Good    │
+│ Line 2.4 │  0.87%   │ ✅ Good    │
+│ Line 2.3 │  0.87%   │ ✅ Good    │
+│ Line 3.2 │  0.86%   │ ⚠️  Average│
+│ Line 3.3 │  0.85%   │ ⚠️  Average│
+│ Line 2.2 │  0.84%   │ ❌ Needs Fix│
+└──────────┴──────────┴────────────┘
+
+🔍 INSIGHT: 4% performance gap between best and worst lines
+   
+   ACTION ITEMS:
+   - Benchmark Line 2.1 & 3.1 processes
+   - Provide targeted training for Line 2.2
+   - Check Line 2.2 equipment condition
+   - Standardize best practices across all lines
+
+
+7. 📦 PRODUCT TYPE
+─────────────────────────────────────────────────────────────────────
+Product Performance Ranking:
+┌──────────────────────┬──────────┬────────────┐
+│       Product        │ Packed % │   Status   │
+├──────────────────────┼──────────┼────────────┤
+│ Vitamin           ⭐ │  0.90%   │ Excellent  │
+│ Bowling              │  0.89%   │ Very Good  │
+│ 140ml C-VITT BO      │  0.87%   │ Good       │
+│ Newron               │  0.87%   │ Good       │
+│ Lipovitan            │  0.85%   │ Average    │
+│ 60z TRUFF Bottle     │  0.75%   │ Poor ⚠️    │
+│ 700cc Pichai fi   ❌ │  0.74%   │ Critical   │
+└──────────────────────┴──────────┴────────────┘
+
+🔍 INSIGHT: 21% performance gap between best and worst products!
+   
+   HIGH PERFORMERS (Vitamin, Bowling):
+   - Smaller package size
+   - Simpler shapes
+   - Standardized specifications
+   
+   LOW PERFORMERS (60z TRUFF, 700cc Pichai):
+   - Large bottle sizes (60z, 700cc)
+   - Complex shapes
+   - Non-standard specifications
+   
+   URGENT ACTION NEEDED:
+   - Review packing process for large bottles
+   - Consider specialized equipment for 700cc
+   - Retrain staff on large bottle handling
+   - Optimize box/pallet configurations
+
+
+💡 TOP 3 ACTIONABLE INSIGHTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. 🎯 PRODUCT OPTIMIZATION (Highest Impact)
+   ─────────────────────────────────────────────────────────────
+   • Focus: 700cc Pichai fi & 60z TRUFF Bottle
+   • Current: 0.74% - 0.75%
+   • Target: 0.85%+ (match Lipovitan)
+   • Potential gain: 13-15% improvement
+   • Investment: Specialized packing equipment
+
+2. 📍 LINE STANDARDIZATION (Medium Impact)
+   ─────────────────────────────────────────────────────────────
+   • Focus: Line 2.2 improvement
+   • Current: 0.84%
+   • Target: 0.87%+ (match best lines)
+   • Potential gain: 4% improvement
+   • Investment: Training + maintenance
+
+3. 🌡️ TEMPERATURE CONTROL (Quick Win)
+   ─────────────────────────────────────────────────────────────
+   • Focus: Maintain 29-30°C
+   • Current: Variable (28-31°C)
+   • Target: Consistent 29-30°C
+   • Potential gain: 3-5% improvement
+   • Investment: HVAC optimization
+
+
+📋 IMPLEMENTATION PRIORITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔴 IMMEDIATE (0-1 month):
+   □ Investigate September performance dip
+   □ Optimize temperature control to 29-30°C
+   □ Benchmark best performing lines (2.1, 3.1)
+
+🟡 SHORT-TERM (1-3 months):
+   □ Standardize processes across all lines
+   □ Provide targeted training for underperforming shifts/lines
+   □ Review and optimize 700cc Pichai fi packing process
+
+🟢 MEDIUM-TERM (3-6 months):
+   □ Invest in specialized equipment for large bottles
+   □ Transfer SGA-3 best practices to SGA-2
+   □ Implement continuous monitoring system
+
+
+📊 EXPECTED OUTCOMES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Current Overall Average: 0.86%
+
+After Implementation:
+• Temperature optimization:     +0.03% → 0.89%
+• Line standardization:          +0.02% → 0.91%
+• Product process improvement:   +0.05% → 0.96%
+
+Target Overall Average: 0.96% (12% improvement)
+
+Estimated Impact:
+• Reduced waste
+• Higher throughput
+• Better customer satisfaction
+• Lower costs per unit
+
+
+📁 RELATED FILES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ chart10_main_effect_specified_variables.png - Combined view
+✓ chart10_1_DMY.png                           - Date analysis
+✓ chart10_2_Season.png                        - Season analysis
+✓ chart10_3_Shift.png                         - Shift comparison
+✓ chart10_4_Temp_C_Thailand_Ayutthaya.png     - Temperature
+✓ chart10_5_Plant.png                         - Plant comparison
+✓ chart10_6_Line.png                          - Line ranking
+✓ chart10_7_Product.png                       - Product ranking
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Analysis Date: November 10, 2025
+Analyst: Kyoko (MIT Data Scientist)
+Data Source: Pack_SGA_20253.xlsx (1,968 samples)
+Model Used: Random Forest (R² = 0.9297)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
